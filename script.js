@@ -3,8 +3,8 @@ $(function() {
   $('.signup-show').click(function() {
     $('#signup-modal').fadeIn();
   });
-});
-  $('.fa-times').click(function() {
+
+  $('#close-modal').click(function() {
     $('#signup-modal').fadeOut();
   });
 });
